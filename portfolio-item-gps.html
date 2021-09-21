@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Zazacito Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <link rel="icon" type="image/svg" href="img/logo.svg" />
+
+    <!-- Update these with your own fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/logo.svg" alt="" />
+      </div>
+      <button
+        class="nav-toggle"
+        aria-label="toggle navigation"
+      >
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#services" class="nav__link"
+              >My Services</a
+            >
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link"
+              >About me</a
+            >
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link"
+              >My Work</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="intro">
+      <h1 class="section__title section__title--intro">
+        <strong>GPS Systems Management </strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        Harvesting, Cleaning and Analysing Data
+      </p>
+      <img
+        src="img/gpsSystems.png"
+        alt=""
+        class="intro__img"
+      />
+    </section>
+
+    <div class="portfolio-item-individual">
+      <p></p>
+      <p>
+        I am able to use gps tracking systems to quantify
+        the workload and performance of one or more
+        athletes. Their use becomes essential to avoid all
+        risks of daily injuries.
+      </p>
+      <img
+        src="img/catapultTool.png"
+        alt="Catapult Openfield"
+      />
+      <p>
+        In addition to using the tools and applications
+        offered by the GPS providers, I use my own data
+        analysis algorithms (python or r as appropriate) to
+        generate customised reports that can easily be
+        integrated into your application or athlete
+        management system.
+      </p>
+      <img
+        src="img/rAnalysis.png"
+        alt="R Studio Analysis"
+      />
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <!-- replace with your own email address -->
+      <a
+        href="mailto:victor.azalbert@yahoo.fr"
+        class="footer__link"
+        >victor.azalbert@yahoo.fr</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/victor-azalbert-910a6b172/"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://github.com/zazacito"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

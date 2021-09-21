@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Zazacito Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <link rel="icon" type="image/svg" href="img/logo.svg" />
+
+    <!-- Update these with your own fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/logo.svg" alt="" />
+      </div>
+      <button
+        class="nav-toggle"
+        aria-label="toggle navigation"
+      >
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#services" class="nav__link"
+              >My Services</a
+            >
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link"
+              >About me</a
+            >
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link"
+              >My Work</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="intro">
+      <h1 class="section__title section__title--intro">
+        The Development of an
+        <strong>Athlete Management System</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        Biarritz Olympique Pays Basque
+      </p>
+      <img
+        src="img/bopbAMSHome.svg"
+        alt=""
+        class="intro__img"
+      />
+    </section>
+
+    <div class="portfolio-item-individual">
+      <p>
+        I worked as a full stack developer then as a data
+        scientist for the professional rugby club of
+        Biarritz Olympique Pays Basque. My main mission was
+        the development of a web application for sports
+        performance management (Athlete Management System)
+        and then the exploitation of this application with
+        the professional team.
+      </p>
+      <p>
+        The main objective was the development of a web
+        application allowing staff to read and write key
+        data and key performance indicators (KPI) at any
+        time.
+      </p>
+      <p>
+        I developed a web application using React JS hosted
+        on Firebase Hosting. The database used is a No SQL
+        database named Firestore, linked to the application
+        via a Serverless API in Node JS.
+      </p>
+
+      <p>
+        Staff members could access and modify at any time
+        individual player profiles to consult their gps
+        reports, training loads, physical testing score,
+        well-being questionaires or player individualised
+        training routine.
+      </p>
+      <img
+        src="img/playerProfile.png"
+        alt="Player Profile"
+      />
+      <p>
+        Coaching staff could also consult collective
+        performance reports like, for example, weekly
+        performance totals for each position.
+      </p>
+      <img src="img/weeklyTotals.png" alt="Weekly Totals" />
+      <p>
+        In addition, a system of notifications has been
+        added to notify the staff of important changes in
+        players fitness for example.
+      </p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <!-- replace with your own email address -->
+      <a
+        href="mailto:victor.azalbert@yahoo.fr"
+        class="footer__link"
+        >victor.azalbert@yahoo.fr</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/victor-azalbert-910a6b172/"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://github.com/zazacito"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
